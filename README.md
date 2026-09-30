@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'PKR', { apiKey: 'art_live_...' });
 {
   bank: 'sbp',
   name: 'State Bank of Pakistan',
-  rate_date: '2026-09-09',   // State Bank of Pakistan's own publication date
+  rate_date: '2026-09-25',   // State Bank of Pakistan's own publication date
   source: 'USD',
   target: 'PKR',
-  rate: 277.3646,
+  rate: 277.1618,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'sbp',
   name: 'State Bank of Pakistan',
-  rate_date: '2026-09-09',
+  rate_date: '2026-09-25',
   rates: [
-    { "base": "USD", "quote": "PKR", "type": "reference", "value": 277.3646 },
+    { "base": "USD", "quote": "PKR", "type": "reference", "value": 277.1618 },
     // … the rest of the published table (35 currencies vs PKR)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'sbp-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'PKR', from: '2026-01-01', to: '2026-09-09' },
+  { source: 'USD', target: 'PKR', from: '2026-01-01', to: '2026-09-25' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'PKR',
   from: '2026-01-01',
-  to: '2026-09-09',
+  to: '2026-09-25',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-09', rate: 277.3646, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-09-25', rate: 277.1618, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
