@@ -42,45 +42,45 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-12** by State Bank of Pakistan — 35 rates. Updated 2026-10-12.
+Published **2026-10-13** by State Bank of Pakistan — 35 rates. Updated 2026-10-13.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | PKR | reference | 75.407 |
+| AED | PKR | reference | 75.4089 |
 | ARS | PKR | reference | 0.1826 |
-| AUD | PKR | reference | 193.0783 |
-| BDT | PKR | reference | 2.25 |
-| BHD | PKR | reference | 733.3166 |
-| BRL | PKR | reference | 55.4802 |
-| CAD | PKR | reference | 194.1835 |
-| CHF | PKR | reference | 332.781 |
-| CNH | PKR | reference | 41.3767 |
-| CNY | PKR | reference | 41.3841 |
-| DKK | PKR | reference | 41.4755 |
-| EUR | PKR | reference | 310.0166 |
-| GBP | PKR | reference | 366.6439 |
-| HKD | PKR | reference | 35.2936 |
+| AUD | PKR | reference | 193.0562 |
+| BDT | PKR | reference | 2.249 |
+| BHD | PKR | reference | 733.4794 |
+| BRL | PKR | reference | 55.5356 |
+| CAD | PKR | reference | 194.2297 |
+| CHF | PKR | reference | 332.587 |
+| CNH | PKR | reference | 41.3753 |
+| CNY | PKR | reference | 41.3756 |
+| DKK | PKR | reference | 41.462 |
+| EUR | PKR | reference | 309.9479 |
+| GBP | PKR | reference | 366.6974 |
+| HKD | PKR | reference | 35.2912 |
 | IDR | PKR | reference | 0.0155 |
-| INR | PKR | reference | 2.8937 |
-| JPY | PKR | reference | 1.7481 |
-| KRW | PKR | reference | 0.2081 |
-| KWD | PKR | reference | 898.8274 |
-| KZT | PKR | reference | 0.6128 |
-| LKR | PKR | reference | 0.837 |
-| MXN | PKR | reference | 15.0488 |
-| MYR | PKR | reference | 67.84 |
-| NOK | PKR | reference | 28.9129 |
-| NZD | PKR | reference | 155.1191 |
-| OMR | PKR | reference | 719.3654 |
-| QAR | PKR | reference | 75.9831 |
-| RUB | PKR | reference | 3.2982 |
-| SAR | PKR | reference | 73.7475 |
-| SEK | PKR | reference | 27.6581 |
-| SGD | PKR | reference | 216.3603 |
-| THB | PKR | reference | 8.2433 |
-| TRY | PKR | reference | 5.6139 |
-| USD | PKR | reference | 276.9736 |
-| ZAR | PKR | reference | 16.7283 |
+| INR | PKR | reference | 2.907 |
+| JPY | PKR | reference | 1.7523 |
+| KRW | PKR | reference | 0.2065 |
+| KWD | PKR | reference | 898.3516 |
+| KZT | PKR | reference | 0.6164 |
+| LKR | PKR | reference | 0.8374 |
+| MXN | PKR | reference | 15.2026 |
+| MYR | PKR | reference | 67.7914 |
+| NOK | PKR | reference | 29.0029 |
+| NZD | PKR | reference | 155.2371 |
+| OMR | PKR | reference | 719.3719 |
+| QAR | PKR | reference | 75.9799 |
+| RUB | PKR | reference | 3.3053 |
+| SAR | PKR | reference | 73.7444 |
+| SEK | PKR | reference | 27.7197 |
+| SGD | PKR | reference | 216.4187 |
+| THB | PKR | reference | 8.2589 |
+| TRY | PKR | reference | 5.6102 |
+| USD | PKR | reference | 276.9618 |
+| ZAR | PKR | reference | 16.8332 |
 
 Source: [Official rates published by SBP, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/sbp/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
