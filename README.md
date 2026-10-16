@@ -42,45 +42,45 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-15** by State Bank of Pakistan — 35 rates. Updated 2026-10-15.
+Published **2026-10-16** by State Bank of Pakistan — 35 rates. Updated 2026-10-16.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | PKR | reference | 75.393 |
+| AED | PKR | reference | 75.3993 |
 | ARS | PKR | reference | 0.183 |
-| AUD | PKR | reference | 191.907 |
-| BDT | PKR | reference | 2.2432 |
-| BHD | PKR | reference | 733.2774 |
-| BRL | PKR | reference | 54.8594 |
-| CAD | PKR | reference | 195.0225 |
-| CHF | PKR | reference | 334.1242 |
-| CNH | PKR | reference | 41.386 |
-| CNY | PKR | reference | 41.3829 |
-| DKK | PKR | reference | 41.5783 |
-| EUR | PKR | reference | 310.7759 |
-| GBP | PKR | reference | 367.1849 |
-| HKD | PKR | reference | 35.2886 |
+| AUD | PKR | reference | 192.7027 |
+| BDT | PKR | reference | 2.2514 |
+| BHD | PKR | reference | 733.055 |
+| BRL | PKR | reference | 54.3129 |
+| CAD | PKR | reference | 195.49 |
+| CHF | PKR | reference | 335.7724 |
+| CNH | PKR | reference | 41.4123 |
+| CNY | PKR | reference | 41.4114 |
+| DKK | PKR | reference | 41.6487 |
+| EUR | PKR | reference | 311.3316 |
+| GBP | PKR | reference | 368.8461 |
+| HKD | PKR | reference | 35.2855 |
 | IDR | PKR | reference | 0.0154 |
-| INR | PKR | reference | 2.916 |
-| JPY | PKR | reference | 1.7551 |
-| KRW | PKR | reference | 0.2062 |
-| KWD | PKR | reference | 898.6602 |
-| KZT | PKR | reference | 0.6116 |
-| LKR | PKR | reference | 0.8365 |
-| MXN | PKR | reference | 14.9752 |
-| MYR | PKR | reference | 67.8731 |
-| NOK | PKR | reference | 29.086 |
-| NZD | PKR | reference | 155.5056 |
-| OMR | PKR | reference | 719.269 |
-| QAR | PKR | reference | 75.969 |
-| RUB | PKR | reference | 3.3126 |
-| SAR | PKR | reference | 73.7731 |
-| SEK | PKR | reference | 27.776 |
-| SGD | PKR | reference | 215.9658 |
-| THB | PKR | reference | 8.2639 |
-| TRY | PKR | reference | 5.6038 |
-| USD | PKR | reference | 276.9221 |
-| ZAR | PKR | reference | 16.7454 |
+| INR | PKR | reference | 2.9162 |
+| JPY | PKR | reference | 1.7522 |
+| KRW | PKR | reference | 0.2079 |
+| KWD | PKR | reference | 898.6257 |
+| KZT | PKR | reference | 0.6117 |
+| LKR | PKR | reference | 0.8364 |
+| MXN | PKR | reference | 15.054 |
+| MYR | PKR | reference | 67.8372 |
+| NOK | PKR | reference | 29.301 |
+| NZD | PKR | reference | 156.9811 |
+| OMR | PKR | reference | 719.2413 |
+| QAR | PKR | reference | 75.9661 |
+| RUB | PKR | reference | 3.3075 |
+| SAR | PKR | reference | 73.7899 |
+| SEK | PKR | reference | 27.971 |
+| SGD | PKR | reference | 216.3625 |
+| THB | PKR | reference | 8.287 |
+| TRY | PKR | reference | 5.5914 |
+| USD | PKR | reference | 276.9115 |
+| ZAR | PKR | reference | 16.8541 |
 
 Source: [Official rates published by SBP, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/sbp/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -274,7 +274,7 @@ curl "https://allratestoday.com/api/v1/central-bank/sbp/latest?format=xml&api_ke
 - MCP server: `npx -y @allratestoday/central-bank-mcp` (stdio) or the hosted endpoint `https://allratestoday.com/api/mcp` — tools for official rates, history, cross-bank comparison and publication calendars
 - Already using the general SDK or MCP server? Since 2026-10-01 [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk) 1.4+ has `officialRates('sbp')` and [`@allratestoday/mcp-server`](https://www.npmjs.com/package/@allratestoday/mcp-server) 0.6+ has a `get_official_rates` tool — both return this source's latest table with no key, so you can add it without a second dependency
 - Claude Code plugin (no key): `/plugin marketplace add AllRates-Today/claude-code-plugin` then `/plugin install allratestoday@allratestoday` — bundles both MCP servers plus an `/official-rate sbp ...` command
-- Need dated tables or history for an evaluation? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days; the MCP servers expose it as `request_trial_key`
+- Evaluating? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days that covers the free-plan methods (latest table, pairs); dated tables and history need a [paid plan](https://allratestoday.com/pricing/). The MCP servers expose it as `request_trial_key`
 - Machine-readable site guide: [llms.txt](https://allratestoday.com/llms.txt) · [for-ai-agents](https://allratestoday.com/for-ai-agents/)
 
 ## ⚖️ Published vs derived rates
