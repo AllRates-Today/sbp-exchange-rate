@@ -20,6 +20,10 @@
 
 > **Official rate, not mid-market:** every value here is a number State Bank of Pakistan itself published, fixed once printed and carrying the central bank's own `rate_date` — what filings and audits require. Need the live mid-market rate for pricing or display instead? Use the [mid-market API](https://allratestoday.com/docs/) or [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk). The two can diverge by several percent.
 
+## 🔑 Get your API key
+
+Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
+
 ## ⚡ Try it without a key
 
 The latest State Bank of Pakistan table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
@@ -43,54 +47,50 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-19 by State Bank of Pakistan — 35 rates. Updated 2026-10-19.</summary>
+<summary>Table as text: published 2026-10-20 by State Bank of Pakistan — 35 rates. Updated 2026-10-20.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | PKR | reference | 75.3927 |
-| ARS | PKR | reference | 0.1824 |
-| AUD | PKR | reference | 193.1947 |
-| BDT | PKR | reference | 2.239 |
-| BHD | PKR | reference | 734.4887 |
-| BRL | PKR | reference | 54.6714 |
-| CAD | PKR | reference | 196.4961 |
-| CHF | PKR | reference | 335.8019 |
-| CNH | PKR | reference | 41.4428 |
-| CNY | PKR | reference | 41.4416 |
-| DKK | PKR | reference | 41.5298 |
-| EUR | PKR | reference | 310.4213 |
-| GBP | PKR | reference | 368.8753 |
-| HKD | PKR | reference | 35.2832 |
+| AED | PKR | reference | 75.3884 |
+| ARS | PKR | reference | 0.1816 |
+| AUD | PKR | reference | 193.5331 |
+| BDT | PKR | reference | 2.2387 |
+| BHD | PKR | reference | 733.4343 |
+| BRL | PKR | reference | 54.9713 |
+| CAD | PKR | reference | 196.9704 |
+| CHF | PKR | reference | 335.7035 |
+| CNH | PKR | reference | 41.4615 |
+| CNY | PKR | reference | 41.4577 |
+| DKK | PKR | reference | 41.5517 |
+| EUR | PKR | reference | 310.5667 |
+| GBP | PKR | reference | 369.4988 |
+| HKD | PKR | reference | 35.2772 |
 | IDR | PKR | reference | 0.0154 |
-| INR | PKR | reference | 2.9164 |
-| JPY | PKR | reference | 1.7512 |
-| KRW | PKR | reference | 0.2081 |
-| KWD | PKR | reference | 899.0333 |
-| KZT | PKR | reference | 0.6118 |
-| LKR | PKR | reference | 0.8356 |
-| MXN | PKR | reference | 14.9522 |
-| MYR | PKR | reference | 67.835 |
-| NOK | PKR | reference | 29.3861 |
-| NZD | PKR | reference | 156.7544 |
-| OMR | PKR | reference | 720.1632 |
-| QAR | PKR | reference | 75.9677 |
-| RUB | PKR | reference | 3.3392 |
-| SAR | PKR | reference | 73.7914 |
-| SEK | PKR | reference | 27.9203 |
-| SGD | PKR | reference | 216.3299 |
-| THB | PKR | reference | 8.2436 |
-| TRY | PKR | reference | 5.5887 |
-| USD | PKR | reference | 276.9022 |
-| ZAR | PKR | reference | 16.8184 |
+| INR | PKR | reference | 2.9166 |
+| JPY | PKR | reference | 1.7511 |
+| KRW | PKR | reference | 0.2086 |
+| KWD | PKR | reference | 898.9332 |
+| KZT | PKR | reference | 0.6139 |
+| LKR | PKR | reference | 0.835 |
+| MXN | PKR | reference | 14.9936 |
+| MYR | PKR | reference | 67.8191 |
+| NOK | PKR | reference | 29.4943 |
+| NZD | PKR | reference | 157.2907 |
+| OMR | PKR | reference | 719.1372 |
+| QAR | PKR | reference | 75.9592 |
+| RUB | PKR | reference | 3.3512 |
+| SAR | PKR | reference | 73.8127 |
+| SEK | PKR | reference | 27.94 |
+| SGD | PKR | reference | 216.5426 |
+| THB | PKR | reference | 8.2316 |
+| TRY | PKR | reference | 5.5846 |
+| USD | PKR | reference | 276.8714 |
+| ZAR | PKR | reference | 16.8436 |
 
 </details>
 
 Source: [Official rates published by SBP, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/sbp/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
-
-## 🔑 Get your API key
-
-Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
 ## 📦 Installation
 
