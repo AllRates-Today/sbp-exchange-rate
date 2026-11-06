@@ -32,45 +32,45 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-05 by State Bank of Pakistan — 35 rates. Updated 2026-11-05.</summary>
+<summary>Table as text: published 2026-11-06 by State Bank of Pakistan — 35 rates. Updated 2026-11-06.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | PKR | reference | 75.3305 |
-| ARS | PKR | reference | 0.1788 |
-| AUD | PKR | reference | 194.0149 |
-| BDT | PKR | reference | 2.2214 |
-| BHD | PKR | reference | 733.3381 |
-| BRL | PKR | reference | 50.6439 |
-| CAD | PKR | reference | 198.2588 |
-| CHF | PKR | reference | 338.8697 |
-| CNH | PKR | reference | 41.486 |
-| CNY | PKR | reference | 41.477 |
-| DKK | PKR | reference | 41.6133 |
-| EUR | PKR | reference | 311.0464 |
-| GBP | PKR | reference | 372.8268 |
-| HKD | PKR | reference | 35.2662 |
+| AED | PKR | reference | 75.3229 |
+| ARS | PKR | reference | 0.1791 |
+| AUD | PKR | reference | 190.1905 |
+| BDT | PKR | reference | 2.2213 |
+| BHD | PKR | reference | 733.2651 |
+| BRL | PKR | reference | 50.2654 |
+| CAD | PKR | reference | 196.6318 |
+| CHF | PKR | reference | 338.5681 |
+| CNH | PKR | reference | 41.4977 |
+| CNY | PKR | reference | 41.4796 |
+| DKK | PKR | reference | 41.4089 |
+| EUR | PKR | reference | 309.5006 |
+| GBP | PKR | reference | 370.6288 |
+| HKD | PKR | reference | 35.2875 |
 | IDR | PKR | reference | 0.0153 |
-| INR | PKR | reference | 2.9294 |
-| JPY | PKR | reference | 1.7486 |
-| KRW | PKR | reference | 0.2062 |
-| KWD | PKR | reference | 898.7173 |
-| KZT | PKR | reference | 0.6125 |
-| LKR | PKR | reference | 0.8327 |
-| MXN | PKR | reference | 14.9067 |
-| MYR | PKR | reference | 68.3643 |
-| NOK | PKR | reference | 29.7703 |
-| NZD | PKR | reference | 155.9451 |
-| OMR | PKR | reference | 718.5957 |
-| QAR | PKR | reference | 75.8998 |
-| RUB | PKR | reference | 3.3747 |
-| SAR | PKR | reference | 73.7109 |
-| SEK | PKR | reference | 28.3529 |
-| SGD | PKR | reference | 216.7497 |
-| THB | PKR | reference | 8.2761 |
-| TRY | PKR | reference | 5.5331 |
-| USD | PKR | reference | 276.6701 |
-| ZAR | PKR | reference | 16.9088 |
+| INR | PKR | reference | 2.9452 |
+| JPY | PKR | reference | 1.752 |
+| KRW | PKR | reference | 0.2041 |
+| KWD | PKR | reference | 898.6874 |
+| KZT | PKR | reference | 0.6184 |
+| LKR | PKR | reference | 0.8323 |
+| MXN | PKR | reference | 14.768 |
+| MYR | PKR | reference | 68.2271 |
+| NOK | PKR | reference | 29.5133 |
+| NZD | PKR | reference | 153.45 |
+| OMR | PKR | reference | 718.5717 |
+| QAR | PKR | reference | 75.9307 |
+| RUB | PKR | reference | 3.3791 |
+| SAR | PKR | reference | 73.7074 |
+| SEK | PKR | reference | 28.0615 |
+| SGD | PKR | reference | 216.0485 |
+| THB | PKR | reference | 8.2438 |
+| TRY | PKR | reference | 5.5194 |
+| USD | PKR | reference | 276.6609 |
+| ZAR | PKR | reference | 16.7694 |
 
 </details>
 
